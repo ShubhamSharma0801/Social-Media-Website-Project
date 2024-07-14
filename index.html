@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Social Media Website</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <h2 class="logo">Socio <i class="fas fa-handshake"></i>
+                Milaap</h2>
+            <div class="search-box">
+                <i class="fas fa-search"></i>
+                <input type="search" placeholder="Find other creators">
+            </div>
+            <div class="create">
+                <label class="btn btn-primary" for="create-post">Create</label>
+                <div class="profile-picture">
+                    <img src="images/profile-1.jpg" alt="Profile Picture">
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Main section -->
+    <main>
+    <div class="container">
+        <!-- LEFT SECTION -->
+        <div class="left">
+        <a class="profile">
+            <div class="profile-picture">
+                <img src="/images/profile-1.jpg">
+            </div>
+            <div class="handle">
+            <h4>Shubham Sharma</h4>   
+            <p class="text-muted">
+              @SS89  
+            </p> 
+            </div>
+        </a>
+        <!-- SIDEBAR -->
+        <div class="sidebar">
+         <a class="menu-item active">
+            <span><i class="fas fa-home"></i></span><h3>Home</h3>
+        </a>
+        <a class="menu-item">
+            <span><i class="fas fa-compass"></i> </span><h3>Explore</h3>
+            </a>
+            
+            <a class="menu-item" id="Notifications">
+            <span><i class="fas fa-bell"><small class="Notification-count"> 9+</small></i></span><h3>Notifications</h3>
+            <!-- notifications-popup starts -->
+            <div class="notifications-popup">
+                <div>
+                    <div class="profile-picture">
+                        <img src="/images/profile-11.jpg">
+                    </div>
+                    <div class="notification-body">
+                        <b>Rohit Sharma</b> accepted your friend request
+                        <small class="text-muted">2 Days Ago</small>
+                    </div>
+                    </div>
+                    <div>
+                    <div class="profile-picture">
+                        <img src="/images/profile-9.jpg">
+                    </div>
+                    <div class="notification-body">
+                        <b>Virat Kohli</b> commented on your post
+                        <small class="text-muted">1 Hour Ago</small>
+                    </div>
+                    </div>
+                    <div>
+                    <div class="profile-picture">
+                        <img src="/images/profile-13.jpg">
+                    </div>
+                    <div class="notification-body">
+                        <b>Hardik Pandya</b> and<b> 18 others</b> liked your post
+                        <small class="text-muted">7 Minutes Ago</small>
+                    </div>
+                    </div>
+                    <div>
+                    <div class="profile-picture">
+                        <img src="/images/profile-5.jpg">
+                    </div>
+                    <div class="notification-body">
+                        <b>Sachin Tendulkar</b> sent you a friend request
+                        <small class="text-muted">10 Minutes Ago</small>
+                    </div>
+                    </div>
+                    <div>
+                    <div class="profile-picture">
+                        <img src="/images/profile-10.jpg">
+                    </div>
+                    <div class="notification-body">
+                        <b>Jasprit Bumrah</b> tagged you in a post
+                        <small class="text-muted">3 Hours Ago</small>
+                    </div>
+                    </div>
+                    <div>
+                    <div class="profile-picture">
+                        <img src="/images/profile-12.jpg">
+                    </div>
+                    <div class="notification-body">
+                        <b>Ravindra Jadeja</b> liked your post
+                        <small class="text-muted"> 1 Week Ago</small>
+                    </div>
+                </div>
+                
+            </div>
+            <!-- Notification popup ends -->
+        </a>
+        <a class="menu-item"id="Messages-notifications">
+            <span><i class="fas fa-envelope"><small class="Notification-count"> 4 </small></i></span><h3>Messages</h3>
+        </a>
+            <a class="menu-item">
+            <span><i class="fas fa-cog"></i></span><h3>Settings</h3>
+        </a>
+            <!-- <a class="menu-item"> 
+            <span><i class="fas fa-bookmark"></i></span><h3>Bookmarks</h3>
+        </a>-->
+            <a class="menu-item">
+            <span><i class="fas fa-chart-line"></i></span><h3>Analytics</h3>
+        </a>
+            <a class="menu-item" id="theme">
+            <span><i class="fas fa-palette"></i></span><h3>Theme</h3>
+        </a>
+
+
+        </div>
+        <!-- SIDEBAR ENDS -->
+        <label for="create-post"class="btn btn-primary">Create Post</label>
+
+        </div>
+        <!-- LEFT SECTION ENDS -->
+
+         <!-- MIDDLE SECTION -->
+     <div class="middle">
+        <!-- Stories -->
+        <div class="stories">
+            <div class="story">
+                <div class="profile-picture">
+                    <img src="/images/profile-1.jpg">
+                </div>
+            <p class="name">Your Story</p>
+            </div>
+            <div class="story">
+                <div class="profile-picture">
+                    <img src="/images/profile-9.jpg">
+                </div>
+            <p class="name">Virat Kohli</p>
+            </div>
+            <div class="story">
+                <div class="profile-picture">
+                    <img src="/images/profile-10.jpg">
+                </div>
+            <p class="name">Jasprit Bumrah</p>
+            </div>
+            <div class="story">
+                <div class="profile-picture">
+                    <img src="/images/profile-11.jpg">
+                </div>
+            <p class="name">Rohit Sharma</p>
+            </div> 
+            <div class="story">
+                <div class="profile-picture">
+                    <img src="/images/profile-12.jpg">
+                </div>
+            <p class="name">Ravindra Jadeja</p>
+            </div> 
+            <div class="story">
+                <div class="profile-picture">
+                    <img src="/images/profile-13.jpg">
+                </div>
+            <p class="name">Hardik Pandya</p>
+            </div> 
+
+        </div>
+        <!-- End of Stories -->
+        <form class="create-post">
+            <div class="profile-picture">
+                <img src="/images/profile-1.jpg">
+            </div>
+            <input type="text"placeholder="What's on your mind,Shubham?" id="create-post">
+            <input type="submit"value="Post"class="btn btn-primary">
+        </form>
+        <!-- Feeds Section Begins -->
+        <div class="feeds">
+            <!-- First Feed -->
+            <div class="feed">
+                <div class="head">
+                    <div class="user">
+                       <div class="profile-picture">
+                        <img src="/images/profile-21.jpg">
+                       </div> 
+                       <div class="info">
+                        <h3>Magnus Carlsen</h3>
+                        <small>Norway, 23 Minutes Ago</small>
+
+                       </div>
+                      
+                    </div>
+                    <span class="edit">
+                        <i class="fas fa-ellipsis-h"></i>
+
+                       </span>
+                </div>
+                <div class="photo">
+                    <img src="/images/feed-8.jpg">
+                </div>
+                <div class="action-button">
+                    <div class="interaction-buttons">
+                        <span>
+                            <i class="far fa-heart"></i>
+                        </span>
+                        <span>
+                            <i class="far fa-comment"></i>
+
+                        </span>
+                        <span>
+                            <i class="fas fa-share"></i>
+
+                        </span>
+
+                    </div>
+                    <div class="bookmark">
+                        <span>
+                            <i class="far fa-bookmark"></i>
+
+ </span>
+
+                    </div>
+                </div>
+                <div class="liked-by">
+                    <span><img src="/images/profile-9.jpg"></span>
+                    <span><img src="/images/profile-4.jpg"></span>
+                    <span><img src="/images/profile-15.jpg"></span>
+                    <p>Liked by<b> Virat Kohli</b> and<b> 879 others</b></p>
+                </div>
+                <div class="caption">
+                    <p><b>Magnus Carlsen</b> They call me the GOAT for a reason. <span class="hash-tag">#WCC2022
+
+                    </span></p>
+                </div>
+                <div class="comments text-muted">View all 327 comments</div>
+            </div>
+            
+             <!-- Second Feed -->
+             <div class="feed">
+                <div class="head">
+                    <div class="user">
+                       <div class="profile-picture">
+                        <img src="/images/profile-14.jpg">
+                       </div> 
+                       <div class="info">
+                        <h3>Neeraj Chopra</h3>
+                        <small>India, 48 Minutes Ago</small>
+
+                       </div>
+                      
+                    </div>
+                    <span class="edit">
+                        <i class="fas fa-ellipsis-h"></i>
+
+                       </span>
+                </div>
+                <div class="photo">
+                    <img src="/images/feed-9.jpg">
+                </div>
+                <div class="action-button">
+                    <div class="interaction-buttons">
+                        <span>
+                            <i class="far fa-heart"></i>
+                        </span>
+                        <span>
+                            <i class="far fa-comment"></i>
+
+                        </span>
+                        <span>
+                            <i class="fas fa-share"></i>
+
+                        </span>
+
+                    </div>
+                    <div class="bookmark">
+                        <span>
+                            <i class="far fa-bookmark"></i>
+
+ </span>
+
+                    </div>
+                </div>
+                <div class="liked-by">
+                    <span><img src="/images/profile-10.jpg"></span>
+                    <span><img src="/images/profile-4.jpg"></span>
+                    <span><img src="/images/profile-15.jpg"></span>
+                    <p>Liked by<b> Jasprit Bumrah</b> and<b> 457 others</b></p>
+                </div>
+                <div class="caption">
+                    <p><b>Neeraj Chopra</b> Watch Out!!! <span class="hash-tag">#Paris2024
+
+                    </span></p>
+                </div>
+                <div class="comments text-muted">View all 545 comments</div>
+            </div>
+        
+             <!-- Third Feed -->
+             <div class="feed">
+                <div class="head">
+                    <div class="user">
+                       <div class="profile-picture">
+                        <img src="/images/profile-22.jpg">
+                       </div> 
+                       <div class="info">
+                        <h3>Cristiano Ronaldo</h3>
+                        <small>Portugal, 3 Hours Ago</small>
+
+                       </div>
+                      
+                    </div>
+                    <span class="edit">
+                        <i class="fas fa-ellipsis-h"></i>
+
+                       </span>
+                </div>
+                <div class="photo">
+                    <img src="/images/feed-10.jpg">
+                </div>
+                <div class="action-button">
+                    <div class="interaction-buttons">
+                        <span>
+                            <i class="far fa-heart"></i>
+                        </span>
+                        <span>
+                            <i class="far fa-comment"></i>
+
+                        </span>
+                        <span>
+                            <i class="fas fa-share"></i>
+
+                        </span>
+
+                    </div>
+                    <div class="bookmark">
+                        <span>
+                            <i class="far fa-bookmark"></i>
+
+ </span>
+
+                    </div>
+                </div>
+                <div class="liked-by">
+                    <span><img src="/images/profile-7.jpg"></span>
+                    <span><img src="/images/profile-4.jpg"></span>
+                    <span><img src="/images/profile-15.jpg"></span>
+                    <p>Liked by<b> Mahendra Singh Dhoni</b> and<b> 983 others</b></p>
+                </div>
+                <div class="caption">
+                    <p><b>Cristiano Ronaldo</b> Drink water daily to be like me xd <span class="hash-tag">#Euro2024
+
+                    </span></p>
+                </div>
+                <div class="comments text-muted">View all 432 comments</div>
+            </div>
+            
+             <!-- Fourth Feed -->
+             <div class="feed">
+                <div class="head">
+                    <div class="user">
+                       <div class="profile-picture">
+                        <img src="/images/profile-13.jpg">
+                       </div> 
+                       <div class="info">
+                        <h3>Hardik Pandya</h3>
+                        <small>India, 8 Hours Ago</small>
+
+                       </div>
+                      
+                    </div>
+                    <span class="edit">
+                        <i class="fas fa-ellipsis-h"></i>
+
+                       </span>
+                </div>
+                <div class="photo">
+                    <img src="/images/story-6.jpg">
+                </div>
+                <div class="action-button">
+                    <div class="interaction-buttons">
+                        <span>
+                            <i class="far fa-heart"></i>
+                        </span>
+                        <span>
+                            <i class="far fa-comment"></i>
+
+                        </span>
+                        <span>
+                            <i class="fas fa-share"></i>
+
+                        </span>
+
+                    </div>
+                    <div class="bookmark">
+                        <span>
+                            <i class="far fa-bookmark"></i>
+
+ </span>
+
+                    </div>
+                </div>
+                <div class="liked-by">
+                    <span><img src="/images/profile-5.jpg"></span>
+                    <span><img src="/images/profile-4.jpg"></span>
+                    <span><img src="/images/profile-15.jpg"></span>
+                    <p>Liked by<b> Sachin Tendulkar</b> and<b> 576 others</b></p>
+                </div>
+                <div class="caption">
+                    <p><b>Hardik Pandya</b> Always a surreal feeling donning the Blue. <span class="hash-tag">#T20WC2024
+
+                    </span></p>
+                </div>
+                <div class="comments text-muted">View all 910 comments</div>
+            </div>
+    
+             <!-- Fifth Feed -->
+             <div class="feed">
+                <div class="head">
+                    <div class="user">
+                       <div class="profile-picture">
+                        <img src="/images/profile-23.jpg">
+                       </div> 
+                       <div class="info">
+                        <h3>Novak Djokovic</h3>
+                        <small>Serbia, 1 Day Ago</small>
+
+                       </div>
+                      
+                    </div>
+                    <span class="edit">
+                        <i class="fas fa-ellipsis-h"></i>
+
+                       </span>
+                </div>
+                <div class="photo">
+                    <img src="/images/feed-11.jpg">
+                </div>
+                <div class="action-button">
+                    <div class="interaction-buttons">
+                        <span>
+                            <i class="far fa-heart"></i>
+                        </span>
+                        <span>
+                            <i class="far fa-comment"></i>
+
+                        </span>
+                        <span>
+                            <i class="fas fa-share"></i>
+
+                        </span>
+
+                    </div>
+                    <div class="bookmark">
+                        <span>
+                            <i class="far fa-bookmark"></i>
+
+ </span>
+
+                    </div>
+                </div>
+                <div class="liked-by">
+                    <span><img src="/images/profile-10.jpg"></span>
+                    <span><img src="/images/profile-4.jpg"></span>
+                    <span><img src="/images/profile-15.jpg"></span>
+                    <p>Liked by<b> Jasprit Bumrah</b> and<b> 123 others</b></p>
+                </div>
+                <div class="caption">
+                    <p><b>Novak Djokovic</b> Djoker at your service <span class="hash-tag">#Wimbledon2024
+
+                    </span></p>
+                </div>
+                <div class="comments text-muted">View all 234 comments</div>
+            </div>
+            
+             <!-- Sixth Feed -->
+             <div class="feed">
+                <div class="head">
+                    <div class="user">
+                       <div class="profile-picture">
+                        <img src="/images/profile-24.jpg">
+                       </div> 
+                       <div class="info">
+                        <h3>Lebron James</h3>
+                        <small>USA, 3 Days Ago</small>
+
+                       </div>
+                      
+                    </div>
+                    <span class="edit">
+                        <i class="fas fa-ellipsis-h"></i>
+
+                       </span>
+                </div>
+                <div class="photo">
+                    <img src="/images/feed-12.jpg">
+                </div>
+                <div class="action-button">
+                    <div class="interaction-buttons">
+                        <span>
+                            <i class="far fa-heart"></i>
+                        </span>
+                        <span>
+                            <i class="far fa-comment"></i>
+
+                        </span>
+                        <span>
+                            <i class="fas fa-share"></i>
+
+                        </span>
+
+                    </div>
+                    <div class="bookmark">
+                        <span>
+                            <i class="far fa-bookmark"></i>
+
+ </span>
+
+                    </div>
+                </div>
+                <div class="liked-by">
+                    <span><img src="/images/profile-7.jpg"></span>
+                    <span><img src="/images/profile-4.jpg"></span>
+                    <span><img src="/images/profile-15.jpg"></span>
+                    <p>Liked by<b> Mahendra Singh Dhoni</b> and<b> 276 others</b></p>
+                </div>
+                <div class="caption">
+                    <p><b>Lebron James</b> Check out these handles! <span class="hash-tag">#NBA
+
+                    </span></p>
+                </div>
+                <div class="comments text-muted">View all 268 comments</div>
+            </div>
+            
+             <!-- Seventh Feed -->
+             <div class="feed">
+                <div class="head">
+                    <div class="user">
+                       <div class="profile-picture">
+                        <img src="/images/profile-25.jpg">
+                       </div> 
+                       <div class="info">
+                        <h3>Usain Bolt</h3>
+                        <small>Jamaica, 1 Week Ago</small>
+
+                       </div>
+                      
+                    </div>
+                    <span class="edit">
+                        <i class="fas fa-ellipsis-h"></i>
+
+                       </span>
+                </div>
+                <div class="photo">
+                    <img src="/images/feed-13.jpg">
+                </div>
+                <div class="action-button">
+                    <div class="interaction-buttons">
+                        <span>
+                            <i class="far fa-heart"></i>
+                        </span>
+                        <span>
+                            <i class="far fa-comment"></i>
+
+                        </span>
+                        <span>
+                            <i class="fas fa-share"></i>
+
+                        </span>
+
+                    </div>
+                    <div class="bookmark">
+                        <span>
+                            <i class="far fa-bookmark"></i>
+
+ </span>
+
+                    </div>
+                </div>
+                <div class="liked-by">
+                    <span><img src="/images/profile-14.jpg"></span>
+                    <span><img src="/images/profile-4.jpg"></span>
+                    <span><img src="/images/profile-15.jpg"></span>
+                    <p>Liked by<b> Neeraj Chopra</b> and<b> 490 others</b></p>
+                </div>
+                <div class="caption">
+                    <p><b>Usain Bolt</b> Think you can keep up with me? <span class="hash-tag">#Rio2016
+
+                    </span></p>
+                </div>
+                <div class="comments text-muted">View all 280 comments</div>
+            </div>
+           
+        </div>
+        <!-- Feed Section Ends -->
+     </div>
+        <!-- Middle Section Ends -->
+
+       
+        <!-- RIGHT SECTION -->
+     <div class="right">
+       <div class="messages">
+        <div class="heading">
+            <h4>Messages</h4><i class="fas fa-pencil"></i>
+       </div>
+       <!-- Search bar -->
+       <div class="search-bar">
+        <i class="fas fa-search"></i>
+        <input type="search"placeholder="Search messages"id="message-search">
+       </div>
+       <!-- Messages Category -->
+       <div class="category">
+        <h6 class="active">Primary</h6>
+        <h6>General</h6>
+        <h6 class="message-requests"> Requests(7)</h6>
+       </div>
+       <!-- Message -->
+       <div class="message">
+        <div class="profile-picture">
+            <img src="images/profile-17.jpg">
+        </div>
+        <div class="message-body">
+            <h5>Babar Azam</h5>
+            <p class="text-muted">This too shall pass. Stay Strong!</p>
+        </div>
+       </div>
+        <!-- Message -->
+        <div class="message">
+            <div class="profile-picture">
+                <img src="images/profile-10.jpg">
+            </div>
+            <div class="message-body">
+                <h5>Jasprit Bumrah</h5>
+                <p class="text-muted">Pace is Pace bro xd</p>
+            </div>
+           </div>
+            <!-- Message -->
+       <div class="message">
+        <div class="profile-picture">
+            <img src="images/profile-13.jpg">
+            <div class="active"></div>
+        </div>
+        <div class="message-body">
+            <h5>Hardik Pandya</h5>
+            <p class="text-bold">3 New Messages</p>
+        </div>
+       </div>
+        <!-- Message -->
+        <div class="message">
+            <div class="profile-picture">
+                <img src="images/profile-12.jpg">
+               
+            </div>
+            <div class="message-body">
+                <h5>Ravindra Jadeja</h5>
+                <p class="text-muted">Just bought a new sword!!!</p>
+            </div>
+           </div>
+           <!-- Message -->
+        <div class="message">
+            <div class="profile-picture">
+                <img src="images/profile-7.jpg">
+            </div>
+            <div class="message-body">
+                <h5>MS Dhoni</h5>
+                <p class="text-muted">Hey what's the square root of 49?</p>
+            </div>
+           </div>
+           <!-- Message -->
+        <div class="message">
+            <div class="profile-picture">
+                <img src="images/profile-8.jpg">
+            </div>
+            <div class="message-body">
+                <h5>Rishabh Pant</h5>
+                <p class="text-muted">Long drive tomorrow???</p>
+            </div>
+           </div>
+       </div>
+       <!-- End of Messages -->
+
+
+       <!-- Friend Requests -->
+       <div class="friend-requests">
+        <h4>Friend Requests</h4>
+        <div class="request">
+            <div class="info">
+                <div class="profile-picture">
+                 <img src="/images/profile-15.jpg">
+                </div>
+
+            <div>
+            <h5>John Tucker</h5>
+            <p class="text-muted">
+              12 mutual friends  
+            </p>
+            
+        </div>
+       </div>
+       <div class="action">
+        <button class="btn btn-primary">
+            Accept
+        </button>
+        <button class="btn">
+            Decline
+        </button>
+    </div>
+     </div>   
+     <div class="request">
+        <div class="info">
+            <div class="profile-picture">
+             <img src="/images/profile-20.jpg">
+            </div>
+
+        <div>
+        <h5>Julia Roberts</h5>
+        <p class="text-muted">
+          7 mutual friends  
+        </p>
+        
+    </div>
+   </div>
+   <div class="action">
+    <button class="btn btn-primary">
+        Accept
+    </button>
+    <button class="btn">
+        Decline
+    </button>
+</div>
+ </div>   
+ <div class="request">
+    <div class="info">
+        <div class="profile-picture">
+         <img src="/images/profile-800.jpg">
+        </div>
+
+    <div>
+    <h5>Tom Brady</h5>
+    <p class="text-muted">
+      8 mutual friends  
+    </p>
+    
+</div>
+</div>
+<div class="action">
+<button class="btn btn-primary">
+    Accept
+</button>
+<button class="btn">
+    Decline
+</button>
+</div>
+</div>   
+     
+    </div>
+    </div>
+    <!-- End of Right Section -->
+    </div>
+    </main>
+    <!-- THEME CUSTOMIZATION -->
+
+    <div class="customize-theme">
+
+<div class="card">
+
+<h2>Customize your view</h2>
+
+<p class="text-muted">Manage your font size, color, and background.</p>
+
+<!-- FONT SIZES -->
+
+
+<div class="font-size">
+
+<h4>Font Size</h4>
+
+<div>
+
+<h6>Aa</h6>
+
+<div class="choose-size">
+
+<span class="font-size-1"></span>
+
+<span class="font-size-2 active"></span>
+
+<span class="font-size-3"></span>
+
+<span class="font-size-4"></span>
+
+<span class="font-size-5"></span>
+
+</div>
+
+<h3>Aa</h3>
+
+</div>
+
+</div>
+
+<!-- PRIMARY COLORS -->
+
+<div class="color">
+
+<h4>Color</h4>
+<div class="choose-color">
+
+    <span class="color-1 active"></span>
+    
+    <span class="color-2"></span>
+    
+    <span class="color-3"></span>
+    
+    <span class="color-4"></span>
+    
+    <span class="color-5"></span>
+    
+    </div>
+    
+    </div>
+    
+    <!-- BACKGROUND COLORS -->
+    
+    <div class="background">
+    
+    <h4>Background</h4>
+    
+    <div class="choose-bg">
+    
+    <div class="bg-1 active">
+    
+    <span></span>
+    
+    <h5 for="bg-1">Light</h5>
+    
+    </div>
+    
+    <div class="bg-2">
+    
+    <span></span>
+    <h5>Dim</h5>
+    </div>
+    <div class="bg-3">
+        <span></span>
+        <h5 for="bg-3">Lights Out</h5>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <script src="/script.js"></script>
+
+</body>
+
+</html>
